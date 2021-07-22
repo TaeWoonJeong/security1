@@ -25,22 +25,22 @@ spring:
       client:
         registration:
           google:
-            client-id: 815923579184-cpetcm86tb0f10e5keaetsdc3i9gaj9e.apps.googleusercontent.com
-            client-secret: erfIk9-rtgH1oOwvPwirqvyP
+            client-id: ${GOOGLE_CLIENT_ID}
+            client-secret: ${GOOGLE_CLIENT_SECRET}
             scope:
               - email
               - profile
 
           facebook:
-            client-id: 178213537522145
-            client-secret: e22312c10c37ec7834e98c8e38600673
+            client-id: ${FACEBOOK_CLIENT_ID}
+            client-secret: ${FACEBOOK_CLIENT_SECRET}
             scope:
               - email
               - public_profile
 
           naver:
-            client-id: 8bE1lb3ySMKdtm0IusvE
-            client-secret: h1sTxnIvLm
+            client-id: ${NAVER_CLIENT_ID}
+            client-secret: ${NAVER_CLIENT_SECRET}
             scope:
               - name
               - email
